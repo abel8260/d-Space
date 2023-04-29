@@ -1,5 +1,7 @@
 # d-Space
  create stories on phpmyadmin-based
+ 
+<a href="https://ibb.co/xXrfsY6"><img src="https://i.ibb.co/xXrfsY6/dspace-ico.png" alt="dspace-ico" border="0"></a>
 
  ## bugs:
  - this software is havng a issue problem with sessios. But is only in the begin. 
