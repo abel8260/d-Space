@@ -325,7 +325,7 @@ img {
     foreach($resultado_usuarios as  $row) {
                     $x = $row["linkc"];
                     $y = $row["colecttion_pe"];
-                    
+                    $z = $row["special_pe"];
                     $tr = $row["scene_pe"];
                     $dr = $row["title_pe"];
                     $lkc = $row["alt_pe"];
@@ -334,7 +334,7 @@ img {
       echo "<div class='col-sm-8 sidenav'>";
       echo "<a href='$x' >";
       echo "<div class='well cen_box '>";
-        echo "<p>$lkc</p>";
+        echo "<p>$lkc -- <b>$z</b></p>";
       echo "</a>";
       echo "</div>";
       
